@@ -1,19 +1,18 @@
-import { BsFillCartCheckFill } from "react-icons/bs";
+import CardWidget from "../../CartWidget/CartWidget";
 
 const Navbar = () => {
   return (
-    <div>
-      <h4>Imagen</h4>
-      <ul>
-        <li>Todas</li>
-        <li>Urbanas</li>
-        <li>Deportivas</li>
-      </ul>
+    <nav>
+      <h3>Ecommerce</h3>
       <div>
-        <BsFillCartCheckFill color="red" size="20px" />
-        <span>2</span>
+        <button>Gin</button>
+        <button>Vodka</button>
+        <button>Cervezas</button>
+        <button>Whisky</button>
+        <button>Vinos</button>
       </div>
-    </div>
+      <CardWidget />
+    </nav>
   );
 };
 

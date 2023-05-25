@@ -1,16 +1,13 @@
 import Navbar from "./components/layout/navbar/Navbar";
 import { ProductsList } from "./components/pages/itemListContainer/ProductsList";
 
-const App = () => {
-  let nombre = "pepe";
-  let edad = 22;
-
+function App() {
   return (
     <div>
       <Navbar />
-      <ProductsList nombre={nombre} edad={edad} />
+      <ProductsList greeting={"Bienvenidos"} />
     </div>
   );
-};
+}
 
 export default App;
