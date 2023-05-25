@@ -1,7 +1,7 @@
 import { BsFillCartCheckFill } from "react-icons/bs";
 import "./CartWidget.css";
 
-const cardWidget = () => {
+const cartWidget = () => {
   return (
     <div className="cartWidget">
       <BsFillCartCheckFill color="black" size="20px" />
@@ -10,4 +10,4 @@ const cardWidget = () => {
   );
 };
 
-export default cardWidget;
+export default cartWidget;
