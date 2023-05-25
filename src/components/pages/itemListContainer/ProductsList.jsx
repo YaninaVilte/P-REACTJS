@@ -1,10 +1,9 @@
-import Counter from "../../common/counter/Counter";
+import "./ProductsList.css";
 
 export const ProductsList = ({ greeting }) => {
   return (
     <>
-      <h1>{greeting}</h1>
-      <Counter />
+      <h1 className="titulo">{greeting}</h1>
     </>
   );
 };
